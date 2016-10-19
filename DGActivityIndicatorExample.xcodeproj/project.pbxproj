@@ -50,7 +50,7 @@
 		899631771DA92274008E6FEB /* DGActivityIndicator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 899631621DA92274008E6FEB /* DGActivityIndicator.framework */; };
 		899631781DA92274008E6FEB /* DGActivityIndicator.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 899631621DA92274008E6FEB /* DGActivityIndicator.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		899631801DA924FA008E6FEB /* DGActivityIndicatorAnimationProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 053EEDE31B1A4A640042C92B /* DGActivityIndicatorAnimationProtocol.h */; };
-		899631811DA924FD008E6FEB /* DGActivityIndicatorView.h in Headers */ = {isa = PBXBuildFile; fileRef = 053EEDE41B1A4A640042C92B /* DGActivityIndicatorView.h */; };
+		899631811DA924FD008E6FEB /* DGActivityIndicatorView.h in Headers */ = {isa = PBXBuildFile; fileRef = 053EEDE41B1A4A640042C92B /* DGActivityIndicatorView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		899631821DA92501008E6FEB /* DGActivityIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 053EEDE51B1A4A640042C92B /* DGActivityIndicatorView.m */; };
 		899631831DA9250E008E6FEB /* DGActivityIndicatorAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = B9D7CC531D5B59A700A9A2CE /* DGActivityIndicatorAnimation.h */; };
 		899631841DA92515008E6FEB /* DGActivityIndicatorAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = B9D7CC541D5B59A700A9A2CE /* DGActivityIndicatorAnimation.m */; };
@@ -439,6 +439,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				899631A51DA92515008E6FEB /* DGActivityIndicatorBallScaleAnimation.h in Headers */,
+				899631811DA924FD008E6FEB /* DGActivityIndicatorView.h in Headers */,
 				899631871DA92515008E6FEB /* DGActivityIndicatorRotatingSandglassAnimation.h in Headers */,
 				899631951DA92515008E6FEB /* DGActivityIndicatorBallScaleRippleAnimation.h in Headers */,
 				899631911DA92515008E6FEB /* DGActivityIndicatorTriangleSkewSpinAnimation.h in Headers */,
@@ -457,7 +458,6 @@
 				899631831DA9250E008E6FEB /* DGActivityIndicatorAnimation.h in Headers */,
 				899631851DA92515008E6FEB /* DGActivityIndicatorCookieTerminatorAnimation.h in Headers */,
 				899631B71DA92515008E6FEB /* DGActivityIndicatorTriplePulseAnimation.h in Headers */,
-				899631811DA924FD008E6FEB /* DGActivityIndicatorView.h in Headers */,
 				899631801DA924FA008E6FEB /* DGActivityIndicatorAnimationProtocol.h in Headers */,
 				899631891DA92515008E6FEB /* DGActivityIndicatorRotatingTrigonAnimation.h in Headers */,
 				899631B31DA92515008E6FEB /* DGActivityIndicatorNineDotsAnimation.h in Headers */,

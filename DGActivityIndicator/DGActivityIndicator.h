@@ -15,5 +15,4 @@ FOUNDATION_EXPORT double DGActivityIndicatorVersionNumber;
 FOUNDATION_EXPORT const unsigned char DGActivityIndicatorVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <DGActivityIndicator/PublicHeader.h>
-
-
+#import "DGActivityIndicatorView.h"

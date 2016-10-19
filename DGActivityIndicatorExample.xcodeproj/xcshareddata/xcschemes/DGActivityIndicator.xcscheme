@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "899631611DA92274008E6FEB"
-               BuildableName = "DGActivityIndicator"
+               BuildableName = "DGActivityIndicator.framework"
                BlueprintName = "DGActivityIndicator"
                ReferencedContainer = "container:DGActivityIndicatorExample.xcodeproj">
             </BuildableReference>
